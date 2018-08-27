@@ -24,7 +24,7 @@
 	url = https://github.com/MarcWeber/vim-addon-mw-utils
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
-	url = https://github.comtpope/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
 [submodule ".vim/bundle/vim-indent-object"]
 	path = .vim/bundle/vim-indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object
