@@ -1,5 +1,5 @@
 " Symlink the .vimrc with the home directory
-" ln -s ~/.vim/.vimrc ~/.vimrc
+" ln -s ~/dotfiles/.vimrc ~/.vimrc
 
 "Pathogen runtime path manipulation
 execute pathogen#infect()
