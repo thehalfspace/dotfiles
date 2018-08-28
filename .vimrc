@@ -17,12 +17,21 @@ set nu
 set cursorline
 set cursorcolumn
 set ruler
-set cmdheight=2
 set hidden
 set ignorecase
 set smartcase
 set hlsearch
 set wildmenu
+
+" Change semi colon to colon in normal mode
+nnoremap ; :
+
+" Map auto complete of (, ", ', [
+inoremap ( ()<esc>i
+inoremap [ []<esc>i
+inoremap { {}<esc>i
+inoremap ' ''<esc>i
+inoremap " ""<esc>i
 
 " Colorscheme
 set background=dark
@@ -57,9 +66,6 @@ let g:lightline = {
 " Set Font
 set gfn=\Downloads\plex-1.1.5\IBM\ Plex\ Mono:h14,Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
 
-" Change semi colon to colon in normal mode
-nnoremap ; :
-
 " Quick exit from insert mode
 inoremap jk <ESC>
 
@@ -74,10 +80,6 @@ map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
 
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_open = 1
-" let g:syntastic_check_on_wq = 0
 let g:ale_linters = {
 						\'javascript': ['jshint'],
 						\'python': ['flake8'],
@@ -89,12 +91,6 @@ let g:vimtex_view_method='skim'
 let g:vimtex_compiler_latexmk={'callback': 0}
 let g:matchup_matchparen_deferred=1
 
-" Map auto complete of (, ", ', [
-inoremap ( ()<esc>i
-inoremap [ []<esc>i
-inoremap { {}<esc>i
-inoremap ' ''<esc>i
-inoremap " ""<esc>i
 
 " NerdCommenter
 
