@@ -36,11 +36,8 @@ inoremap " ""<esc>i
 " Mapping for use of single brackets 
 " (use forward-slash or question mark before brackets)
 inoremap /[ [ 
-inoremap /] ]
 inoremap ?( ( 
-inoremap ?) ) 
 inoremap ?{ {
-inoremap ?} }
 inoremap /' '
 inoremap ?" "
 
