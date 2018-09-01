@@ -19,4 +19,4 @@ export PS1='\u ✌️ \W$ '
 # shortcut alias
 alias workcode='cd /Users/prith/Google\ Drive\ File\ Stream/My\ Drive/Work/Code' 
 
-alias prith='ssh -l prith arc-ts.flux-ligin.umich.edu'
+alias prith='ssh -l prith flux-login.arc-ts.umich.edu'
