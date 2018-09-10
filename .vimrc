@@ -80,9 +80,6 @@ let g:lightline = {
 " Set Font
 set gfn=\Downloads\plex-1.1.5\IBM\ Plex\ Mono:h14,Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
 
-" Quick exit from insert mode
-inoremap jk <ESC>
-
 " Set Leader mostly for NERDTree mappings
 let mapleader=","
 let g:NERDTreeWinPos="right"
