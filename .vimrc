@@ -27,25 +27,29 @@ set wildmenu
 nnoremap ; :
 
 " Map auto complete of (, ", ', [
-inoremap ( ()<esc>i
-inoremap [ []<esc>i
-inoremap { {}<esc>i
-inoremap ' ''<esc>i
-inoremap " ""<esc>i
+" inoremap ( ()<esc>i
+" inoremap [ []<esc>i
+" inoremap { {}<esc>i
+" inoremap ' ''<esc>i
+" inoremap " ""<esc>i
 
 " Mapping for use of single brackets 
 " (use forward-slash or question mark before brackets)
-inoremap /[ [
-inoremap ?( (
-inoremap ?{ {
-inoremap /' '
-inoremap ?" "
+" inoremap /[ [
+" inoremap ?( (
+" inoremap ?{ {
+" inoremap /' '
+" inoremap ?" "
 
-" Use ctrl-[hjkl] to select the active split!
-nmap <silent> <c-k> :wincmd k<CR>
-nmap <silent> <c-j> :wincmd j<CR>
-nmap <silent> <c-h> :wincmd h<CR>
-nmap <silent> <c-l> :wincmd l<CR>
+" Faster navigation between splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" More natural split opening
+set splitbelow
+set splitright
 
 " Colorscheme
 set background=dark
