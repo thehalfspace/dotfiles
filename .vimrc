@@ -33,6 +33,18 @@ inoremap { {}<esc>i
 inoremap ' ''<esc>i
 inoremap " ""<esc>i
 
+" Faster navigation between splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" More natural split opening
+set splitbelow
+set splitright
+
+
+
 " Mapping for use of single brackets 
 " (use forward-slash or question mark before brackets)
 inoremap /[ [ 
