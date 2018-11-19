@@ -26,7 +26,7 @@ List of plugins that I use:
 If you want to use my vim settings, you can clone the repo and get going.
 ``` bash
 cd
-git clone --recurse-submodules https;//github.com/thehalfspace/dotfiles
+git clone --recurse-submodules https://github.com/thehalfspace/dotfiles
 cd dotfiles
 sh symlink.sh
 ```
