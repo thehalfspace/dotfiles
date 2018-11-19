@@ -101,8 +101,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # shortcut alias
-alias workcode='cd /Users/prith/Google\ Drive\ File\ Stream/My\ Drive/Work/Code' 
+alias work='cd /Users/prith/Google\ Drive\ File\ Stream/My\ Drive/Work' 
+alias courses='cd /Users/prith/Google\ Drive\ File\ Stream/My\ Drive/Courses' 
 alias flux='ssh -l prith flux-login.arc-ts.umich.edu'
-alias mypr='cd /Users/prith/Google\ Drive\ File\ Stream/My\ Drive/my-projects'
 alias dizhi='ssh prith@dizhi.earth.lsa.umich.edu'
 alias wozhi='ssh -X prith@wozhi.earth.lsa.umich.edu'
