@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # shortcut alias
 alias work='cd /Users/prithvithakur/Google\ Drive\ File\ Stream/My\ Drive/Work' 
 alias courses='cd /Users/prithvithakur/Google\ Drive\ File\ Stream/My\ Drive/Courses' 
-alias misc='cd /Users/prithvithakur/Google Drive File Stream/My Drive/my-projects/miscellaneous'
+alias misc='cd /Users/prithvithakur/Google\ Drive\ File\ Stream/My\ Drive/my-projects/miscellaneous'
 alias flux='ssh -l prith flux-login.arc-ts.umich.edu'
 alias dizhi='ssh prith@dizhi.earth.lsa.umich.edu'
 alias wozhi='ssh -X prith@wozhi.earth.lsa.umich.edu'
