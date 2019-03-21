@@ -107,3 +107,10 @@ alias misc='cd /Users/prithvithakur/Google\ Drive\ File\ Stream/My\ Drive/my-pro
 alias flux='ssh -l prith flux-login.arc-ts.umich.edu'
 alias dizhi='ssh prith@dizhi.earth.lsa.umich.edu'
 alias wozhi='ssh -X prith@wozhi.earth.lsa.umich.edu'
+
+
+# add sac stuff
+export SACHOME=/Users/prithvithakur/Downloads/sac/
+
+export PATH=${PATH}:${SACHOME}/bin
+export SACAUX=${SACHOME}/aux

@@ -1,5 +1,18 @@
 Backup of my configuration files. Mostly for my personal use as and when I migrate to new computer.
 
+---------
+If you want to use my vim settings, you can clone the repo and get going. Before following the steps below, you might want to install zsh and oh-my-zsh that I use. You can do that [here](http://www.boekhoff.info/how-to-install-zsh-and-oh-my-zsh/).
+
+Also be sure to change the aliases according to your path.
+
+``` bash
+cd
+git clone --recurse-submodules https://github.com/thehalfspace/dotfiles
+cd dotfiles
+sh symlink.sh
+```
+
+
 ## vim: 
 
 List of plugins that I use:
@@ -22,14 +35,6 @@ List of plugins that I use:
 
 [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): Select the same variables at multiple locations.
 
----------
-If you want to use my vim settings, you can clone the repo and get going.
-``` bash
-cd
-git clone --recurse-submodules https://github.com/thehalfspace/dotfiles
-cd dotfiles
-sh symlink.sh
-```
 
 Here are some cool commands that I use with these settings. I have been using these for about a month now, so I still have a lot to explore.
 ``` bash
