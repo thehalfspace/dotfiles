@@ -100,12 +100,12 @@ if &background=='light'
     hi TabLine		guifg=fg	guibg=#c0c0c0	gui=NONE
     hi TabLineFill	guifg=fg	guibg=#c0c0c0	gui=NONE
     hi TabLineSel	guifg=fg	guibg=NONE	gui=NONE
-    hi CursorColumn	guifg=NONE	guibg=#f0b090
-    hi CursorLine	guifg=NONE	guibg=NONE	gui=underline
+    " hi CursorColumn	guifg=NONE	guibg=#f0b090
+    " hi CursorLine	guifg=NONE	guibg=NONE	gui=underline
     hi MatchParen	guifg=NONE	guibg=#c0e080
   endif
   if v:version >= 800
-    hi CursorLineNr	guifg=#686868	guibg=NONE	gui=underline
+    " hi CursorLineNr	guifg=#686868	guibg=NONE	gui=underline
   endif
 
   " LIGHT COLOR DEFINE END
@@ -567,16 +567,16 @@ elseif &background=='dark'
       hi TabLine	ctermfg=fg	ctermbg=28	cterm=NONE
       hi TabLineFill	ctermfg=fg	ctermbg=28	cterm=NONE
       hi TabLineSel	ctermfg=fg	ctermbg=NONE	cterm=NONE
-      hi CursorColumn	ctermfg=NONE	ctermbg=88	cterm=NONE
-      hi CursorLine	ctermfg=NONE	ctermbg=NONE	cterm=underline
+      " hi CursorColumn	ctermfg=NONE	ctermbg=88	cterm=NONE
+      " hi CursorLine	ctermfg=NONE	ctermbg=NONE	cterm=underline
       hi MatchParen	ctermfg=NONE	ctermbg=90
       hi TabLine	cterm=underline  
       hi TabLineFill	cterm=underline  
       hi Underlined	cterm=underline  
-      hi CursorLine	cterm=underline 
+      " hi CursorLine	cterm=underline 
     endif
     if v:version >= 800
-      hi CursorLine	ctermfg=145	cterm=underline 
+      " hi CursorLine	ctermfg=145	cterm=underline 
     endif
 
   endif " t_Co

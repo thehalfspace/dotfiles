@@ -15,6 +15,7 @@ set expandtab
 
 set nu
 set cursorline
+" highlight CursorLine ctermbg=LightBlue
 set cursorcolumn
 set ruler
 set ignorecase
