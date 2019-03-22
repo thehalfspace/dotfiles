@@ -17,7 +17,6 @@ set nu
 set cursorline
 set cursorcolumn
 set ruler
-set hidden
 set ignorecase
 set smartcase
 set hlsearch
@@ -41,10 +40,6 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
-" More natural split opening
-set splitbelow
-set splitright
 
 " Colorscheme
 set background=dark
