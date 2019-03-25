@@ -59,9 +59,10 @@ o           # insert on the next line
 :linenumber # go to that linenumber
 ~           # Switch case of the selection
 
-# If the cursor is in the middle of a line, press dd to delete the entire line. Press C to delete from the cursor position to end of line. Press ce to delete word.
-
-r           # replace one character. e.g. if I press r5, it will replace the existing character with 5.
+# The capitalized version of common commands are super useful. Be sure to check them out:
+d           # delete. e.g. dw = delete word, dd = delete line, D = delete from the cursor position to end of line
+c           # change. e.g. cw = deletes word and puts you in insert mode, cc = deletes line and puts in insert mode, C = deletes from the cursor position to end of line
+r           # replace. e.g. r5 = replaces the current character with 5. R puts you in replace mode where you can move around and overwrite anything. 
 
 \ll         # Compile latex document (vimtex)
 \lv         # View latex document (need a pdfviewer for this. I use skim)
