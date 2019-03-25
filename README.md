@@ -41,10 +41,10 @@ Here are some cool commands that I use with these settings. I have been using th
 # The <leader> in my setting is , (a comma). A lot of mappings start with <leader> and comma should be used for any reference to <leader>.
 ,nn         # Toggle the nerd tree explorer.
 
-Ctrl-W-P    # Switch in and out of nerd tree.
+Ctrl-hjkl    # Move around nerd tree/any vim buffer.
 
 Ctrl-n      # Select something in visual mode, and use this to find its next match. 
-            # repeat the command for multiple matches.
+            # repeat the command for multiple matches. Super useful when I want to edit the same word on multiple lines.
 
 ,cc         # Comment the selection
 ,ci         # Invert comment the selection. (Uncomment if commented and vice versa)
@@ -58,6 +58,10 @@ Ctrl-r      # redo
 o           # insert on the next line
 :linenumber # go to that linenumber
 ~           # Switch case of the selection
+
+# If the cursor is in the middle of a line, press dd to delete the entire line. Press C to delete from the cursor position to end of line. Press ce to delete word.
+
+r           # replace one character. e.g. if I press r5, it will replace the existing character with 5.
 
 \ll         # Compile latex document (vimtex)
 \lv         # View latex document (need a pdfviewer for this. I use skim)
