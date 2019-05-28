@@ -108,6 +108,8 @@ alias flux='ssh -l prith flux-login.arc-ts.umich.edu'
 alias beta='ssh -l prith beta.arc-ts.umich.edu'
 alias dizhi='ssh prith@dizhi.earth.lsa.umich.edu'
 alias wozhi='ssh -X prith@wozhi.earth.lsa.umich.edu'
+alias sam='ssh prith@141.211.197.212'
+alias imac='ssh prith@35.1.66.128'
 
 
 # add sac stuff
