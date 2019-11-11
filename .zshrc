@@ -105,12 +105,15 @@ alias work='cd /Users/prithvithakur/Google\ Drive\ File\ Stream/My\ Drive/Work'
 alias courses='cd /Users/prithvithakur/Google\ Drive\ File\ Stream/My\ Drive/Courses' 
 alias misc='cd /Users/prithvithakur/Google\ Drive\ File\ Stream/My\ Drive/my-projects/miscellaneous'
 alias flux='ssh -l prith flux-login.arc-ts.umich.edu'
-alias beta='ssh -l prith beta.arc-ts.umich.edu'
+alias greatlakes='ssh -l prith greatlakes.arc-ts.umich.edu'
 alias dizhi='ssh prith@dizhi.earth.lsa.umich.edu'
 alias wozhi='ssh -X prith@wozhi.earth.lsa.umich.edu'
 alias sam='ssh prith@141.211.197.212'
-alias imac='ssh prith@35.1.66.128'
+alias imac='ssh prith@35.1.109.167'
 
+# Julia path
+# Use this if you installed julia using dmg
+# export PATH=$PATH:/Applications/Julia-1.2.app/Contents/Resources/julia/bin/julia 
 
 # add sac stuff
 export SACHOME=/Users/prithvithakur/Downloads/sac/
