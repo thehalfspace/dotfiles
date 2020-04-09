@@ -30,6 +30,10 @@ nnoremap ; :
 set splitbelow
 set splitright
 
+
+" set ttyfast: faster scrolling maybe
+set ttyfast
+
 " Code folding with indent
 " set foldmethod=indent   
 " set foldnestmax=10
