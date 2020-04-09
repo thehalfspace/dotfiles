@@ -31,10 +31,10 @@ set splitbelow
 set splitright
 
 " Code folding with indent
-set foldmethod=indent   
-set foldnestmax=10
-set nofoldenable
-set foldlevel=2
+" set foldmethod=indent   
+" set foldnestmax=10
+" set nofoldenable
+" set foldlevel=2
 
 " Faster navigation between splits
 nnoremap <C-J> <C-W><C-J>
